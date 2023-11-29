@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Jogo da cobrinha </title>
+</head>
+<body>
+    <div class="jogo"> Jogo da cobrinha!! :D</div>
+    <!-- span agrupa e estiliza textos dentro de um elemento maior-->
+    <div class="score">pontuação: <span class="score--valor">00</span></div>
+
+    <div class="menu_tela">
+        <span class="game-over"> vc perdeu :( </span>
+        <span class="score_final">score <span>00</span></span>
+
+        <button class="btn-play">
+            <span class="material-symbols-outlined">
+                clique
+            </span>
+            
+             para jogar novamente
+        </button>
+    </div>
+
+    <canvas width="600" height="600"></canvas>
+    <script src="jogo.js"></script>
+</body>
+</html>
